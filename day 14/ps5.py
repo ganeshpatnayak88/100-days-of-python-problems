@@ -1,0 +1,9 @@
+total=3721
+hour=total//(60*60)
+print(hour)
+remain=total-hour*(60*60)
+print(remain)
+min=remain//(60)
+print(min)
+remain=remain-min*(60)
+print(remain)
