@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .main{
+      display: inline-block;
+      margin: 20px;
+      position: relative;
+      padding: 50px;
+    }
+    .main2{
+        display: inline-block;
+        position:relative;
+        margin: 20px;
+        padding: 50px;
+    }
+    .main3{
+        display: inline-block;
+        position: relative;
+        margin: 20px;
+        padding: 50px;
+    }
+    .main:hover .sub1{
+        position: absolute;
+      display: block;
+
+    }
+    .main2:hover .sub2{
+        position: absolute;
+        display: block;
+    }
+    .main3:hover .sub3{
+        position:absolute;
+        display: block;
+    }
+    .sub1{
+        position: absolute;
+        display: none;
+        padding: 12px 13px;
+        background-color: blueviolet;
+        width: 80px;
+    }
+    .sub2{
+        display: none;
+        background-color: blue;
+        position: absolute;
+        padding: 12px 13px;
+        width: 80px;
+    }
+    .sub3{
+        display: none;
+        background-color: yellow;
+        position: 12px 13px;
+        width: 80px;
+    }
+  </style>
+</head>
+<body>
+    <div class="main">
+        <h3>courese</h3>
+            <div class="sub1">
+                <p>DSA to Development</p>
+                <p>GATE 2026 Prep</p>
+                <p>Get 3 IBM Certifications</p>
+            </div>
+    </div>
+    <div class="main2">
+        <h3>Tutorials</h3>
+            <div class="sub2">
+                <p>python</p>
+                <p>java</p>
+                <p>dsa</p>
+            </div>
+    </div>
+    <div class="main3">
+        <h3>jobs</h3>
+            <div class="sub3">
+                <p>apply now!</p>
+                <p>post jobs</p>
+                <p>become a mentor</p>
+            </div>
+    </div>
+</body>
+</html>
