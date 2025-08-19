@@ -1,0 +1,47 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .main{
+            width: 100px;
+            height: 100px;
+            background-color:orange; 
+            border-radius: 50%;
+            position: absolute;
+            top:250px;
+            left: 600px;
+            z-index: 1;
+        }
+        .sub{
+            width: 120px;
+            height: 120px;
+            background-color:yellow;
+            border-radius: 50%;
+            position: absolute;
+            top:250px;
+            left: 600px;
+            animation: rotate 2s ease infinite reverse 1s;
+        }
+        @keyframes rotate{
+            from{
+                top: 250px;
+                left: 600px;
+            }
+            to{
+                top: 240px;
+                left: 590px;
+            }
+        }
+        body{
+            background-color:sandybrown;
+        }
+    </style>
+</head>
+<body>
+    <div class="main"></div>
+    <div class="sub"></div>
+</body>
+</html>
